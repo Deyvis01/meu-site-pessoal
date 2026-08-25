@@ -13,26 +13,22 @@ Sou um desenvolvedor em busca de oportunidades como estagiário. Estou sempre ap
 - HTML5
 - CSS3
 - JavaScript
-- [Adicione suas tecnologias aqui]
+- SQL
 
-## 📂 Projetos
-
-Aqui você encontrará alguns dos meus projetos:
-
-- [Projeto 1](#)
-- [Projeto 2](#)
-- [Projeto 3](#)
 
 ## 🎓 Formação
-
-- [Sua formação aqui]
+Análise e Desenvolvimento de Sistemas (ADS)
+Universidade Paulista (UNIP) – Campus Alphaville
+Período atual: 2º semestre
+Início do curso: Janeiro de 2026
+Previsão de conclusão: Junho/Julho de 2028
 
 ## 📞 Contato
 
 Você pode me encontrar em:
 
-- 📧 Email: [seu-email@example.com]
-- 💼 LinkedIn: [seu-linkedin]
+- 📧 Email: hdavi6224@gmail.com
+- 💼 LinkedIn: www.linkedin.com/in/davi-henrique-b0b3b4412
 - 🐙 GitHub: [github.com/Deyvis01](https://github.com/Deyvis01)
 
 ## 📝 Licença
