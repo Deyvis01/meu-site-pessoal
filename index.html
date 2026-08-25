@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetech - Celulares e Consertos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-catalogo.css">
+</head>
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="#home" class="logo-link">
+                    <span class="marca-nome">VETECH</span>
+                </a>
+            </div>
+
+            <ul class="navbar-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#celulares" class="nav-link">Celulares</a></li>
+                <li><a href="#consertos" class="nav-link">Consertos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="navbar-actions">
+                <button class="btn-carrinho" id="btn-carrinho" type="button" title="Carrinho">
+                    <span class="icone-carrinho">🛒</span>
+                    <span class="carrinho-count">0</span>
+                </button>
+                <a class="btn-login" href="#login" role="button" aria-label="Ir para entrar">
+                    <span class="icone-login">👤</span>
+                    <span class="texto-login">Login</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Celulares e consertos com confiança</h2>
+            <p class="hero-subtitle">Atendimento rápido, orçamento claro e peças com origem verificada.</p>
+            <ul class="hero-destaques">
+                <li class="hero-destaque">✅ Diagnóstico rápido e transparente</li>
+                <li class="hero-destaque">🛠️ Garantia no serviço e acompanhamento</li>
+                <li class="hero-destaque">📦 Peças para pronta entrega</li>
+            </ul>
+            <div class="hero-buttons">
+                <a href="#consertos" class="btn btn-primary">Agendar conserto</a>
+                <a href="#celulares" class="btn btn-secondary">Ver catálogo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CELULARES -->
+    <section class="content-section" id="celulares">
+        <div class="section-header">
+            <h2 class="section-title">Catálogo de Celulares</h2>
+        </div>
+
+        <div class="produtos-grid">
+            <div class="produto-card" data-preco="3999">
+                <div class="produto-info">
+                    <h3 class="produto-nome">iPhone 14</h3>
+                    <p class="produto-marca">Apple</p>
+                    <p class="produto-descricao">128GB • Câmeras • 5G</p>
+                    <div class="produto-preco">R$ 3.999,00</div>
+                    <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="produto-card" data-preco="1599">
+                <div class="produto-info">
+                    <h3 class="produto-nome">Galaxy A54</h3>
+                    <p class="produto-marca">Samsung</p>
+                    <p class="produto-descricao">128GB • 5G • Boa câmera</p>
+                    <div class="produto-preco">R$ 1.599,00</div>
+                    <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="produto-card" data-preco="1899">
+                <div class="produto-info">
+                    <h3 class="produto-nome">Edge 40</h3>
+                    <p class="produto-marca">Motorola</p>
+                    <p class="produto-descricao">128GB • 5G • Desempenho</p>
+                    <div class="produto-preco">R$ 1.899,00</div>
+                    <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="produto-card" data-preco="2799">
+                <div class="produto-info">
+                    <h3 class="produto-nome">Xiaomi 13</h3>
+                    <p class="produto-marca">Xiaomi</p>
+                    <p class="produto-descricao">256GB • 5G • Câmera forte</p>
+                    <div class="produto-preco">R$ 2.799,00</div>
+                    <button class="btn btn-comprar">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONSERTOS -->
+    <section class="content-section servicos-section" id="consertos">
+        <h2 class="section-title">Serviços de Conserto</h2>
+        <p class="section-descricao">Reparação rápida e garantida para seu celular</p>
+
+        <div class="servicos-grid">
+            <div class="servico-card">
+                <div class="servico-icone">📱</div>
+                <h3 class="servico-nome">Troca de Tela</h3>
+                <p class="servico-descricao">Substituição com vidro original</p>
+                <div class="servico-preco">A partir de R$ 150</div>
+            </div>
+
+            <div class="servico-card">
+                <div class="servico-icone">🔋</div>
+                <h3 class="servico-nome">Troca de Bateria</h3>
+                <p class="servico-descricao">Bateria nova com garantia de 1 ano</p>
+                <div class="servico-preco">A partir de R$ 80</div>
+            </div>
+
+            <div class="servico-card">
+                <div class="servico-icone">💧</div>
+                <h3 class="servico-nome">Reparação por Água</h3>
+                <p class="servico-descricao">Limpeza e reparação de danos</p>
+                <div class="servico-preco">A partir de R$ 120</div>
+            </div>
+
+            <div class="servico-card">
+                <div class="servico-icone">📷</div>
+                <h3 class="servico-nome">Troca de Câmera</h3>
+                <p class="servico-descricao">Substituição de módulo</p>
+                <div class="servico-preco">A partir de R$ 200</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section class="content-section contato-section" id="contato">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contato-grid">
+            <div class="contato-info">
+                <h3>📍 Localização</h3>
+                <p>Rua das Tecnologias, 123<br>Centro - São Paulo, SP</p>
+            </div>
+
+            <div class="contato-info">
+                <h3>📞 Telefone</h3>
+                <p>(11) 3456-7890<br>(11) 99876-5432 (WhatsApp)</p>
+            </div>
+
+            <div class="contato-info">
+                <h3>📧 Email</h3>
+                <p>contato@vetech.com.br</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL CARRINHO -->
+    <div class="modal" id="modal-carrinho">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Seu Carrinho</h2>
+                <button class="btn-fechar" id="btn-fechar-carrinho">&times;</button>
+            </div>
+            <div class="modal-body" id="carrinho-items">
+                <p class="carrinho-vazio">Seu carrinho está vazio</p>
+            </div>
+            <div class="modal-footer">
+                <div class="carrinho-total">
+                    <strong>Total:</strong> <span id="total-preco">R$ 0,00</span>
+                </div>
+                <button class="btn btn-primary btn-checkout">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>🔧 Vetech</h4>
+                <p>Sua loja de celulares de confiança</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Compras</h4>
+                <ul>
+                    <li><a href="#celulares">Catálogo</a></li>
+                    <li><a href="#consertos">Consertos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Informações</h4>
+                <ul>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 Vetech - Celulares & Consertos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
